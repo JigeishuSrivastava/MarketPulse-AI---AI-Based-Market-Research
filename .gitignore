@@ -1,0 +1,26 @@
+# 1. API Keys aur Credentials (Sabse Zaruri)
+.env
+
+# 2. Python Virtual Environment
+venv/
+env/
+.env/
+
+# 3. Python Cache aur Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 4. Local Database (ChromaDB folders)
+chroma_db/
+.chroma/
+
+# 5. Streamlit Temporary Files
+.streamlit/config.toml
+! .streamlit/secrets.toml  # Agar aap secrets manually manage kar rahe hain
+
+# 6. IDE Specific Files
+.vscode/
+.idea/
+.DS_Store

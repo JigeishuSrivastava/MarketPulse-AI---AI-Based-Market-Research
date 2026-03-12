@@ -1,0 +1,10 @@
+streamlit
+groq
+python-dotenv
+duckduckgo-search==6.3.0
+fpdf
+plotly
+pandas
+requests
+beautifulsoup4
+chromadb
